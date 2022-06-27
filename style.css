@@ -11,6 +11,24 @@ body {
     /* rgb(32, 35, 48) */
 }
 
+#btn {
+    text-align: center;
+    margin-top: 60vh;
+    pointer-events: none;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    animation: appear 0.5s ease forwards 3.8s;
+}
+
 #logo {
     position: absolute;
     top: 50%;
@@ -77,5 +95,12 @@ body {
     }
     to {
         fill: white;
+    }
+}
+
+@keyframes appear {
+    to {
+        color: white;
+        pointer-events: auto;
     }
 }
