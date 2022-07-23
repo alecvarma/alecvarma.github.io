@@ -5,11 +5,16 @@
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     height: 100%;
-    background-color: rgb(32, 35, 48);
+    background: linear-gradient(to left top, rgb(32, 35, 48), indianred);
     overflow-x: hidden;
+    /* linear-gradient(to left top, rgb(32, 35, 48), indianred); */
     /* rgb(32, 35, 48) */
     /* indianred */
 }
